@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svarog - Web & Software Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <!-- Header -->
+    <header
+      class="fixed top-4 left-1/2 transform -translate-x-1/2 w-auto bg-white/90 backdrop-blur-md rounded-full shadow-md z-50 px-6 py-3 flex items-center gap-8"
+    >
+      <!-- Logo -->
+      <div class="font-bold text-xl">Svarog</div>
+
+      <!-- Nav -->
+      <nav class="hidden md:flex gap-6 text-gray-700">
+        <a href="#showcase" class="hover:text-blue-600">Showcase</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+
+      <!-- Spacer -->
+      <div class="flex-1"></div>
+
+      <!-- GitHub / Social (example) -->
+      <a
+        href="https://github.com"
+        target="_blank"
+        class="hidden sm:flex items-center gap-1 text-gray-700 hover:text-black"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.5-3.9-1.5-.6-1.5-1.5-2-1.5-2-1.2-.8.1-.8.1-.8 1.3.1 2 .9 2 .9 1.2 2 3.2 1.4 4 .9.1-.9.5-1.4.9-1.7-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.3 1.1-3.2 0-.3-.5-1.5.1-3.2 0 0 1-.3 3.2 1.2a10.8 10.8 0 0 1 5.8 0C18.5 4.6 19.5 5 19.5 5c.6 1.7.1 2.9.1 3.2.7.9 1.1 2 1.1 3.2 0 4.6-2.7 5.6-5.3 5.9.6.5 1 1.3 1 2.7v4c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5Z"
+          />
+        </svg>
+        <span class="text-sm">GitHub</span>
+      </a>
+
+      <!-- CTA -->
+      <a
+        href="#contact"
+        class="ml-4 px-4 py-2 bg-black text-white text-sm rounded-full hover:bg-gray-800 transition"
+      >
+        Contact Us
+      </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-200 via-white to-red-200"
+    >
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-6">
+        Build <span class="bg-black text-white px-2 rounded">Web Pages</span>,
+        <span class="italic text-blue-600">Ecommerce</span>,
+        <br class="hidden md:block" />
+        & <u>Software Solutions</u>
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 mb-8">
+        Svarog helps your business grow with modern, scalable solutions.
+      </p>
+      <a
+        href="#showcase"
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+      >
+        See Our Work ↓
+      </a>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center mb-12">Our Builds</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Example project cards -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project"
+              class="rounded mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">Modern Business Website</h4>
+            <p class="text-gray-600">
+              A sleek and responsive company site built with TailwindCSS.
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project"
+              class="rounded mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">Ecommerce Shop</h4>
+            <p class="text-gray-600">
+              Fast, secure online shop with easy checkout and product
+              management.
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project"
+              class="rounded mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">Custom Software</h4>
+            <p class="text-gray-600">
+              Tailor-made solutions designed to optimize workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-blue-50 to-red-50">
+      <div class="max-w-2xl mx-auto text-center px-6">
+        <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+        <p class="text-gray-600 mb-6">
+          Let’s build something amazing together. Reach out to us today!
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="mailto:svarog.doo@gmail.com"
+            class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+          >
+            Email Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-white text-center text-gray-500">
+      © 2025 Svarog d.o.o. All rights reserved.
+    </footer>
+  </body>
+</html>
